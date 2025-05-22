@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { DimensionValue, StyleSheet, View, ViewStyle } from 'react-native';
 import React from 'react';
 import { TBlock, TNode } from '@native-html/transient-render-engine';
 import { MarkedListItem, useMarkedList } from '@jsamr/react-native-li';
@@ -49,7 +49,7 @@ function extractMarkerTextStyle(tnode: TNode) {
 
 export function getMarkerBoxStyle(
   markerWidth: number | false,
-  paddingValue: string | number | undefined
+  paddingValue: string | number | undefined | DimensionValue
 ) {
   const markerBoxWidth =
     typeof markerWidth === 'number'
@@ -159,8 +159,10 @@ export default function ListElement({
       key={key}
       index={index}
       {...itemProps}
-      markerBoxStyle={[itemProps.markerBoxStyle, markerBoxWidthStyle]}
-      markerTextStyle={itemProps.markerTextStyle}
+      markerBoxStyle={[
+        itemProps.markerBoxStyle,
+        markerBoxWidthStyle as ViewStyle
+      ]}
       enableMarkerClipping
       style={itemProps.style}>
       <View style={styles.shrink}>{childElement}</View>
