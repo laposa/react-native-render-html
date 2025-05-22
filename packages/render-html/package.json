@@ -1,5 +1,5 @@
 {
-  "name": "react-native-render-html",
+  "name": "@laposa/react-native-render-html",
   "version": "6.3.5",
   "author": "Meliorence <contact@meliorence.com> (github.com/meliorence)",
   "license": "BSD-2-Clause",
@@ -12,9 +12,9 @@
     "src",
     "react-native-render-html.podspec"
   ],
-  "homepage": "https://meliorence.github.io/react-native-render-html/",
+  "homepage": "https://github.com/laposa/react-native-render-html",
   "bugs": {
-    "url": "https://github.com/meliorence/react-native-render-html/issues"
+    "url": "https://github.com/laposa/react-native-render-html/issues"
   },
   "keywords": [
     "react-native",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/meliorence/react-native-render-html.git",
+    "url": "git@github.com:laposa/react-native-render-html.git",
     "directory": "packages/render-html"
   },
   "scripts": {

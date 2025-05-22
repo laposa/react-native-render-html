@@ -4314,6 +4314,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@laposa/react-native-render-html-project@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@laposa/react-native-render-html-project@workspace:."
+  dependencies:
+    "@commitlint/cli": ^12.1.1
+    "@commitlint/config-conventional": ^12.1.1
+    "@react-native-community/eslint-config": ^3.0.0
+    "@tsconfig/react-native": ^1.0.3
+    "@typescript-eslint/eslint-plugin": ^4.29.2
+    commitlint: ^12.1.1
+    conditional-type-checks: ^1.0.5
+    eslint: ^7.29.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-compat: ^3.9.0
+    eslint-plugin-prettier: ^3.4.0
+    husky: ^6.0.0
+    inkscape: ^3.1.1
+    metro-react-native-babel-preset: ^0.66.0
+    prettier: ^2.3.1
+    svgo: ^2.3.0
+  languageName: unknown
+  linkType: soft
+
 "@mdn/browser-compat-data@npm:^2.0.7":
   version: 2.0.7
   resolution: "@mdn/browser-compat-data@npm:2.0.7"
@@ -19873,29 +19896,6 @@ fsevents@^1.2.7:
   checksum: a01788123cd88edefba4733f4676ad0acefe6f330ce4baa7107834ed446ce2b214b7ba2f95af1d4f95e72b1138201a25077cf9dd670cf6095d036f862d2b1d31
   languageName: node
   linkType: hard
-
-"react-native-render-html-project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-render-html-project@workspace:."
-  dependencies:
-    "@commitlint/cli": ^12.1.1
-    "@commitlint/config-conventional": ^12.1.1
-    "@react-native-community/eslint-config": ^3.0.0
-    "@tsconfig/react-native": ^1.0.3
-    "@typescript-eslint/eslint-plugin": ^4.29.2
-    commitlint: ^12.1.1
-    conditional-type-checks: ^1.0.5
-    eslint: ^7.29.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-compat: ^3.9.0
-    eslint-plugin-prettier: ^3.4.0
-    husky: ^6.0.0
-    inkscape: ^3.1.1
-    metro-react-native-babel-preset: ^0.66.0
-    prettier: ^2.3.1
-    svgo: ^2.3.0
-  languageName: unknown
-  linkType: soft
 
 "react-native-render-html-v5@npm:react-native-render-html@^5.0.0":
   version: 5.1.1
